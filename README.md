@@ -6,6 +6,8 @@ The application requires a mysql database to be running on the localhost
 
 All of the required tables for the database can be found in `database-dump.sql`
 
+The database username and password can be set in `application.properties`
+
 For the application to connect to the database, the password `youcantguessme` should be set as a property, i.e. `export jasypt_encryptor_password=youcantguessme`
 
 ## Running the application
